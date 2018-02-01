@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hicon"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/oicon"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/picon"
+            android:title="My Order" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/logouticon"
+                android:title="Signout" />
+
+        </menu>
+    </item>
+
+</menu>
